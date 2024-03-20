@@ -711,9 +711,42 @@ td {
         width: 100%;
     }
 }
-/* @media screen and (max-width: 468px) {
-    .text { 
-        margin: 30px 10px 10px 10px;
+
+.slot-second {
+    width: calc(100% - 60px); 
+    margin: 30px 20px 20px 80px;
+ }
+.slot-second__box {
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+
+ }
+.slot-second__item {
+    border-radius: 20px;
+    max-width: 256px;
+    width: 100%;
+    position: relative;
+ }
+
+ .slot-second__item img {
+    border-radius: 20px;
+    max-width: 256px;
+    width: 100%;
+    height: auto;
+ }
+.slot-second__item p {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: black;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1280px){
+    .slot-second {
         width: 100%;
+        margin: 30px 10px 10px 10px;
     }
-} */
+}
