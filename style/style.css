@@ -224,15 +224,18 @@ aside {
     position: absolute;
     top:64px;
     left:0;
-    /* z-index: 1000; */
+    z-index: 1000;
     background-color: white;
     box-shadow: 8px 0 5px -5px rgba(0,0,0,.32), 8px 0 10px -5px rgba(0,0,0,.24);
 }
 .menu {
-    /* position: fixed; */
+    position: fixed;
+    background-color: white;
+    width: 64px;
+    box-shadow: 8px 0 5px -5px rgba(0,0,0,.32), 8px 0 10px -5px rgba(0,0,0,.24);
     top: 64px;
-    /* left: -5px;
-    z-index: 1000;  */
+    left: 0;
+    z-index: 1000; 
     display: flex;
     flex-direction: column;
     align-items: center;
