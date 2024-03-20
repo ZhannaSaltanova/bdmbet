@@ -370,6 +370,7 @@ aside {
 main {
     padding-right: 2%;
 }
+
 .banner {
     margin: 100px 10px 10px 80px;
     padding: 130px 30px; 
@@ -610,9 +611,22 @@ main {
     font-weight: 500;
 }
 
-
-@media screen and (max-width: 768px){
-    
+.slot-btn {
+    margin-top: 30px;
+    padding: 15px 20px;
 }
 
+@media screen and (max-width: 460px) {
+    main {
+        margin-right: 10px;
+    }
+    .slot__box {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slot__box {
+        padding-left: 0;
+    }
+}
 
