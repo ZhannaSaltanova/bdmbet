@@ -596,6 +596,7 @@ aside {
     max-width: 1300px;
     width: 100%;
     padding: 20px;
+    padding-left: 60px;
 }
 .pay img {
     width: 72px;
@@ -630,6 +631,9 @@ aside {
     background-color:inherit;
     position: relative;
     border-radius:20px;
+}
+.margin {
+    margin-left: 20px;
 }
 .slot__items {
     display: flex;
