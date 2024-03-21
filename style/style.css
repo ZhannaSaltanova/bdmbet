@@ -402,6 +402,7 @@ aside {
     overflow-x: hidden;
 }
 
+
 .banner {
     margin: 100px 10px 10px 80px;
     padding: 130px 30px; 
@@ -556,7 +557,7 @@ aside {
     justify-content: center;
     align-items:center;
     gap:30px;
-    padding-left: 6%;
+    padding-left: 4%;
 }
 .atr__welcome-info span  {
     display: flex;
@@ -649,7 +650,7 @@ aside {
     padding: 15px 20px;
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 768px) {
     .slot {
         width: 100%;
         padding: 0;
@@ -662,8 +663,15 @@ aside {
     .slot__box {
         padding-left: 0;
     }
+    .atr__welcome {
+        padding-left: 0;
+    }
 }
-
+@media screen and (max-width: 478px) {
+    .wrapper {
+        padding-right: 1%;
+    }
+}
 /* text */
 
 .text { 
