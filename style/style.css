@@ -29,7 +29,6 @@ body {
     background-color:#EFF0F1;
     overflow-x: hidden;
 }
-
 h1 {
     font-size: 109px;
     color: #F9FAFA;
@@ -100,6 +99,7 @@ p {
     position: fixed;
     top:0;
     z-index: 800;
+    
 }
 .header__nav-sidebar {
     margin-right: 10px;
@@ -397,8 +397,9 @@ aside {
     margin-top: 20px;
 }
 /* banner */
-main {
+.wrapper {
     padding-right: 2%;
+    overflow-x: hidden;
 }
 
 .banner {
@@ -648,8 +649,9 @@ main {
 }
 
 @media screen and (max-width: 460px) {
-    main {
-        margin-right: 10px;
+    .slot {
+        width: 100%;
+        padding: 0;
     }
     .slot__box {
         padding-left: 0;
@@ -726,7 +728,8 @@ td {
 
 .slot-second {
     width: calc(100% - 60px); 
-    margin: 30px 20px 20px 80px;
+    /* margin: 30px 20px 20px 80px; */
+    overflow: hidden;
  }
 .slot-second__box {
     display: flex;
@@ -758,7 +761,6 @@ td {
 
 @media screen and (max-width: 1280px){
     .slot-second {
-        width: 100%;
         margin: 30px 10px 10px 10px;
     }
 }
