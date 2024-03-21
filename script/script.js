@@ -5,9 +5,8 @@ document.getElementById('toggleButton').addEventListener('click', function() {
 
     burgerMenu.classList.toggle('open');
 
-
     if (window.innerWidth >= 1280) {
-        if (menu.style.display === "none" || menu.style.display === "") {
+        if (window.getComputedStyle(menu).display === "none") {
             menu.style.display = "flex";
             burgerMenu.classList.remove('open'); 
         } else {
@@ -15,8 +14,8 @@ document.getElementById('toggleButton').addEventListener('click', function() {
             burgerMenu.classList.add('open'); 
         }
     } else {
-        if (menu.style.display === "flex") {
-            burgerMenu.classList.remove('open'); 
+        if (window.getComputedStyle(menu).display === "flex") {
+            burgerMenu.classList.remove('open');
         }
         menu.style.display = "none";
     }
@@ -30,7 +29,6 @@ window.addEventListener('resize', function() {
         menu.style.display = "none";
     } else {
         burgerMenu.classList.remove('open');
-        menu.style.display = "flex"; 
+        menu.style.display = "flex";
     }
 });
-
