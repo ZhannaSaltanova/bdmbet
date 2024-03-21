@@ -27,7 +27,6 @@
 body {
     font-family: 'Montserrat',  sans-serif;
     background-color:#EFF0F1;
-    overflow-x: hidden;
 }
 /* * {
     border: 1px solid red !important;
@@ -815,6 +814,7 @@ aside {
     margin: 30px 10px 10px 80px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .footer__bottom {
     display: flex;
@@ -897,7 +897,6 @@ aside {
     .footer {
         padding-left: 5px;
         width: 100%;
-        overflow: hidden;
         margin: 0;
     }
     .footer__bottom {
