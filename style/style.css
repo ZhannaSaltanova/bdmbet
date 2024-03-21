@@ -73,6 +73,9 @@ p {
     color: #A2A5AF;
 }
 @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
     h2 {
         font-size: 24px;
         margin: 10px 0 10px;
@@ -894,6 +897,27 @@ aside {
 }
 
 @media screen and (max-width: 1280px){
+    .footer {
+        padding-left: 5px;
+        width: 100%;
+        margin: 0;
+    }
+    .footer__bottom {
+        margin-top: 40px;
+        gap: 20px;
+    }
+    .footer-link {
+        grid-template-rows: repeat(8, 1fr);
+        grid-template-columns: repeat(2, 200px);
+        order:3;
+       
+    }
+    .footer__top {
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width: 470px){
     .footer {
         padding-left: 5px;
         width: 100%;
