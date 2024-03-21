@@ -29,8 +29,8 @@ body {
     background-color:#EFF0F1;
 }
 /* * {
-    border: 1px solid red !important;
-} */
+    outline: 1px solid red;
+  } */
 h1 {
     margin: 0 0 30px;
     font-size: 44px;
@@ -813,7 +813,7 @@ aside {
 /* footer */
 
 .footer {
-    width: calc(100% - 60px); 
+    width: calc(100% - 100px); 
     margin: 30px 10px 10px 80px;
     display: flex;
     flex-direction: column;
@@ -824,7 +824,7 @@ aside {
     justify-content: space-between;
     flex-wrap: wrap;
     overflow: hidden;
-    width: calc(100% - 60px); 
+    width: calc(100% - 100px); 
 }
 .footer-link {
     display: grid;
@@ -853,7 +853,7 @@ aside {
 }
 .footer__top {
     overflow: hidden;
-    width: calc(100% - 60px); 
+    width: calc(100% - 100px); 
     margin-top: 20px;
     padding-top: 30px;
     border-top: 1px solid #63687A;
