@@ -262,6 +262,9 @@ aside {
     width: 0px;
   }
 }
+.menu.close {
+    display: none;
+}
 .menu__img {
     width: 60px;
     height: 60px;
@@ -656,13 +659,6 @@ main {
     border-radius: 20px;
     margin: 30px 20px 20px 80px;
 }
-.text__box { 
-    
-}
-.text__title-h3 { }
-.banner__box-btn { }
-.banner-btn { }
-.slot-btn { }
 
 .text-table {
     display: flex;
