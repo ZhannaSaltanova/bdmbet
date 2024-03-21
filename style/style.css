@@ -701,7 +701,7 @@ table {
 }
 
 td {
-    border: 4px dashed rgba(128, 0, 128, 0.7);
+    /* border: 0.1px dashed rgba(128, 0, 128, 0.7); */
     padding: 10px;
     color: #666666;
     font-size: 16px;
