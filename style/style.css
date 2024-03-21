@@ -29,6 +29,9 @@ body {
     background-color:#EFF0F1;
     overflow-x: hidden;
 }
+/* * {
+    border: 1px solid red !important;
+} */
 h1 {
     font-size: 109px;
     color: #F9FAFA;
@@ -789,6 +792,8 @@ td {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    overflow: hidden;
+    width: calc(100% - 60px); 
 }
 .footer-link {
     display: grid;
@@ -816,16 +821,56 @@ td {
     height: 30px;
 }
 .footer__top {
+    overflow: hidden;
+    width: calc(100% - 60px); 
     margin-top: 20px;
+    padding-top: 30px;
+    border-top: 1px solid #63687A;
 }
-.
+.footer__top-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.app  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+.app div {
+    display: flex;
+    align-items: center;
+}
+.app div p {
+    margin: 0;
+    font-size: 12px;
+    color: #161D37;
+    font-size: 14px;
+    font-weight: 700;
+}
+.copy {
+    color: #63687a;
+    font-size: 12px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.copy a {
+    color: #63687a;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
 
 @media screen and (max-width: 1280px){
     .footer {
         padding-left: 5px;
-        width: 95%;
-        margin: 5px;
+        width: 100%;
         overflow: hidden;
+        margin: 0;
     }
     .footer__bottom {
         gap: 20px;
@@ -835,6 +880,9 @@ td {
         grid-template-columns: repeat(2, 200px);
         order:3;
        
+    }
+    .footer__top {
+        width: 100%;
     }
    
 }
