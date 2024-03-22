@@ -632,8 +632,13 @@ aside {
     position: relative;
     border-radius:20px;
 }
-.margin {
+/* .margin {
     margin-left: 20px;
+} */
+@media screen and(max-width:768px) {
+    .margin {
+        margin-left: 10px;
+    }
 }
 .slot__items {
     display: flex;
@@ -823,7 +828,6 @@ aside {
 
 
 
-
 /* footer */
 
 .footer {
@@ -847,6 +851,7 @@ aside {
     grid-template-columns: repeat(4, 200px); 
     grid-gap: 14px; 
     align-items: start; 
+    margin-left: auto;
 }
 .footer-link a {
     font-size: 12px;
